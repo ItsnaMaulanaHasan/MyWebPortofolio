@@ -100,7 +100,7 @@ const experiences = [
       "Building a website for the DNCC organization.",
       "Building a website for the New Generation Basic Training event (BTNG) 2023.",
       "Building a website for the Dinus Application Competition (DINACOM)  2024.",
-      "Provide basic training on web programming for DNCC members",
+      "Provide basic training on web programming for DNCC members.",
     ],
   },
   {
