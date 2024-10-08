@@ -34,14 +34,24 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>About Me</h2>
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem atque, distinctio in temporibus architecto iste voluptatum. Voluptate tenetur eum fugit, neque architecto eos, nisi eaque aliquam esse ea animi vel!
+        <p>
+          I am a 7th-semester Informatics Engineering student with a keen interest in both Fullstack Web Development and Frontend Web Development. My experience includes working with HTML, CSS, JavaScript, and PHP, as well as using
+          frameworks like Laravel and ReactJS to build dynamic and responsive web applications.
+        </p>
+        <br />
+        <p>
+          In addition to fullstack development, I am also passionate about mobile frontend development, with hands-on experience in using Flutter and Swift to create cross-platform applications that offer a seamless user experience. I enjoy
+          building intuitive user interfaces with a focus on functionality and design.
+        </p>
+        <br />
+        <p>I am highly motivated to continue learning and growing in the field of web and mobile development. I am excited to apply my skills and knowledge to new challenges and contribute to innovative projects in the tech industry.</p>
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-20 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
