@@ -200,7 +200,7 @@ const projects = [
       },
     ],
     image: certify,
-    source_code_link: " https://github.com/ItsnaMaulanaHasan/certifyproject.git",
+    source_code_link: "https://github.com/ItsnaMaulanaHasan/certify-project.git",
   },
   {
     name: "Website DNCC (Dian Nuswantoro Computer Club)",
