@@ -83,7 +83,7 @@ const experiences = [
     company_name: "Bengkel Koding at UDINUS",
     icon: bengkod,
     iconBg: "#E6DEDD",
-    date: "Mar 2024 - Present",
+    date: "Mar 2024 - Oct 2024",
     points: [
       "Building a scheduling and attendance system for teh Bengkel Koding (Bengkod) at Dian Nuswantoro University, here I built mobile application for students to take attendance with a Qr Code.",
       "Working im a team of 2, I built a scheduling and attendance system at Bengkel Koding (Bengkod) in a mobile version for the student side.",
@@ -94,7 +94,7 @@ const experiences = [
     company_name: "Bengkel Koding at UDINUS",
     icon: bengkod,
     iconBg: "#E6DEDD",
-    date: "Mar 2024 - Present",
+    date: "Mar 2024 - Oct 2024",
     points: [
       "Building a scheduling and attendance system at UDINUS, especially for the Bengkel Koding (Bengkod) course in the informatics engineering study program, where the scheduling an attendance system in Bengkod is still manual, so I am here building a web-based scheduling and attendance system with attendance features with QR Code.",
       "Working in a team of 5 people, I was in charge of building the frontend using NextJs and the ReactJs library.",
@@ -105,7 +105,7 @@ const experiences = [
     company_name: "Bengkel Koding at UDINUS",
     icon: bengkod,
     iconBg: "#E6DEDD",
-    date: "Mar 2024 - Present",
+    date: "Mar 2024 - Oct 2024",
     points: [
       "Assist lecturers in creating cryptography course material, especially creating code for cryptographic algorithms.",
       "Created approximately 8 classical and modern cryptographic algorithms, and algorithms for steganography as well.",
