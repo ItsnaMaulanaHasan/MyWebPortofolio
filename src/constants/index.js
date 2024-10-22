@@ -153,25 +153,25 @@ const experiences = [
 
 const projects = [
   {
-    name: "The Laptop Price Estimation Application",
+    name: "brewCoffee",
     description:
-      "The Laptop Price Estimation Application is a website application created with the help of Streamlit, and uses the Python programming language and uses a linear regression algorithm to train the dataset. The dataset used is a dataset of laptop prices totaling approximately 1304 datasets.",
+      "brewCoffee is an innovative app designed for coffee lovers with gerd. The app allows users to track their daily caffeine intake and ensure consumption remains safe with a predetermined maximum limit per day. In addition, brewCoffee also provides various articles on coffee beans that are more friendly to people with gerd and helps users choose coffee that suits their health condition. With brewCoffee, you can enjoy your coffee without worrying about your stomach health. This iOS app is designed in swift programming language with swiftUI and swiftData frameworks.",
     tags: [
       {
-        name: "python",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "streamlit",
-        color: "green-text-gradient",
-      },
-      {
-        name: "liniear-regression-algorithm",
+        name: "swift",
         color: "pink-text-gradient",
       },
+      {
+        name: "swiftUI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "swiftData",
+        color: "green-text-gradient",
+      },
     ],
-    image: estimasi_laptop,
-    source_code_link: "https://app-estimasi-harga-mobil-bekas-bmw-pli6kohm72.streamlit.app/",
+    image: brewcoffee,
+    source_code_link: "https://github.com/jonathankl4/brewCoffee.git",
   },
   {
     name: "Certify",
@@ -201,6 +201,27 @@ const projects = [
     ],
     image: certify,
     source_code_link: "https://github.com/ItsnaMaulanaHasan/certify-project.git",
+  },
+  {
+    name: "Website DINACOM (Dinus Application Competition)",
+    description:
+      "This website is the official website of the DINACOM (Dinus Application Competition) event held by UDINUS and organized by DNCC. Dinus Application Competition (DINACOM) is a competition in the field of information technology at the national level.The products being competed in DINACOM are website-based applications, mobile applications and desktop applications. This website was built using the Laravel framework and also TailwindCSS.",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dinacom,
+    source_code_link: "https://dinacom.dnccudinus.org/",
   },
   {
     name: "Website DNCC (Dian Nuswantoro Computer Club)",
@@ -244,46 +265,25 @@ const projects = [
     source_code_link: "https://btng.dnccudinus.org/",
   },
   {
-    name: "Website DINACOM (Dinus Application Competition)",
+    name: "The Laptop Price Estimation Application",
     description:
-      "This website is the official website of the DINACOM (Dinus Application Competition) event held by UDINUS and organized by DNCC. Dinus Application Competition (DINACOM) is a competition in the field of information technology at the national level.The products being competed in DINACOM are website-based applications, mobile applications and desktop applications. This website was built using the Laravel framework and also TailwindCSS.",
+      "The Laptop Price Estimation Application is a website application created with the help of Streamlit, and uses the Python programming language and uses a linear regression algorithm to train the dataset. The dataset used is a dataset of laptop prices totaling approximately 1304 datasets.",
     tags: [
       {
-        name: "php",
-        color: "blue-text-gradient",
+        name: "python",
+        color: "orange-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "streamlit",
         color: "green-text-gradient",
       },
       {
-        name: "laravel",
+        name: "liniear-regression-algorithm",
         color: "pink-text-gradient",
       },
     ],
-    image: dinacom,
-    source_code_link: "https://dinacom.dnccudinus.org/",
-  },
-  {
-    name: "brewCoffee",
-    description:
-      "brewCoffee is an innovative app designed for coffee lovers with gerd. The app allows users to track their daily caffeine intake and ensure consumption remains safe with a predetermined maximum limit per day. In addition, brewCoffee also provides various articles on coffee beans that are more friendly to people with gerd and helps users choose coffee that suits their health condition. With brewCoffee, you can enjoy your coffee without worrying about your stomach health. This iOS app is designed in swift programming language with swiftUI and swiftData frameworks.",
-    tags: [
-      {
-        name: "swift",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "swiftUI",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "swiftData",
-        color: "green-text-gradient",
-      },
-    ],
-    image: brewcoffee,
-    source_code_link: "https://github.com/jonathankl4/brewCoffee.git",
+    image: estimasi_laptop,
+    source_code_link: "https://app-estimasi-harga-mobil-bekas-bmw-pli6kohm72.streamlit.app/",
   },
 ];
 
