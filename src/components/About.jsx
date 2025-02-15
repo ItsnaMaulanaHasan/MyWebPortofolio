@@ -39,7 +39,7 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         <p>
-          I am a 7th-semester Informatics Engineering student with a keen interest in both Fullstack Web Development and Frontend Mobile Development. My experience includes working with HTML, CSS, JavaScript, and PHP, as well as using
+          Fresh Graduate of Informatics Engineering student with a keen interest in both Fullstack Web Development and Frontend Mobile Development. My experience includes working with HTML, CSS, JavaScript, and PHP, as well as using
           frameworks like Laravel and ReactJS to build dynamic and responsive web applications.
         </p>
         <br />
