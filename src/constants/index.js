@@ -1,4 +1,4 @@
-import { backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, udinus, dncc, bengkod, estimasi_laptop, webdncc, threejs, certify, btng, dinacom, brewcoffee, apple } from "../assets";
+import { creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, udinus, dncc, bengkod, estimasi_laptop, webdncc, threejs, certify, btng, dinacom, brewcoffee, apple, assistx } from "../assets";
 
 export const navLinks = [
   {
@@ -17,16 +17,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Web Developer",
     icon: web,
   },
   {
     title: "Mobile Developer",
     icon: creator,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
   },
 ];
 
@@ -79,6 +75,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Engineer Intern",
+    company_name: "AssistX Enterprise",
+    icon: assistx,
+    iconBg: "#E6DEDD",
+    date: "Nov 2024 - Present",
+    points: [
+      " Developed frontend solutions for various client projects, including the creation of customized dashboards tailored to their specific needs.",
+      "Collaborated with the backend team to integrate frontend and backend components seamlessly, ensuring a smooth and efficient website experience.",
+      " Worked closely with UX/UI designers to ensure seamless integration of design elements, implementing and optimizing user interfaces for optimal performance and responsiveness.",
+    ],
+  },
+  {
     title: "Mobile Developer",
     company_name: "Bengkel Koding at UDINUS",
     icon: bengkod,
@@ -87,6 +95,7 @@ const experiences = [
     points: [
       "Building a scheduling and attendance system for teh Bengkel Koding (Bengkod) at Dian Nuswantoro University, here I built mobile application for students to take attendance with a Qr Code.",
       "Working im a team of 2, I built a scheduling and attendance system at Bengkel Koding (Bengkod) in a mobile version for the student side.",
+      "Integrated real-time attendance validation and automated scheduling to enhance efficiency and minimize manual tasks.",
     ],
   },
   {
