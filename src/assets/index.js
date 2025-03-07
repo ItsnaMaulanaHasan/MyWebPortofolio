@@ -24,7 +24,7 @@ import udinus from "./company/udinus.png";
 import bengkod from "./company/bengkod.png";
 import dncc from "./company/dncc.png";
 import apple from "./company/apple.png";
-import assistx from "./company/assistx_enterprise.jpeg";
+import assistx from "./company/assistx_enterprise.png";
 
 import estimasi_laptop from "./estimasi_laptop.png";
 import certify from "./certify.png";
